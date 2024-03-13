@@ -1,0 +1,11 @@
+Aula 41 mod 2
+list-style-position: inside; para as bolinhas ficarem para dentro
+columns: 2; para a lista ficar em duas colunas
+list-style-type: '\2714\00A0;
+                     |     |
+                   codigo codigo para dar espaço
+                     do
+                    emoji
+a.externo::after{content} para emojis em links
+. class
+# id

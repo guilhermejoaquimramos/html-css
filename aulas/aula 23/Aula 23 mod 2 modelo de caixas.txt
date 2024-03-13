@@ -1,0 +1,7 @@
+Aula 23 mod 2 modelo de caixas
+height: altura
+widht: largura
+]border: borda
+padding: acolchoamento para a borda
+box level: caixa independente
+inline level: caixa dependente

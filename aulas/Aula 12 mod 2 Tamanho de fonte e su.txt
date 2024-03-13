@@ -1,0 +1,4 @@
+Aula 12 mod 2 Tamanho de fonte e suas medidas
+Medidas absolutas: centimetro(cm), milimetro(mm), polegada(in), pixel(px), ponto(pt), pica(pc)
+Medidas relativas: em, ex, rem, vw, %
+Recomendação w3c: px e em

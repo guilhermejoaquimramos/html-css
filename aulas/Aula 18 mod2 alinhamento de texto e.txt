@@ -1,0 +1,4 @@
+Aula 18 mod2 alinhamento de texto em CSS
+tag text-indent para um espaço no começo de um paragrafo igual de redação.
+ex:
+   oi

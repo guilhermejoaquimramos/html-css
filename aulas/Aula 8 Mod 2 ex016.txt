@@ -1,0 +1,9 @@
+Aula 8 Mod 2 ex016
+A tag "main" é como uma div para meu conteúdo principal.
+tag "widht" para a largura do texto
+tag "padding" para um acolchoamento do texto
+tag "margin" para o lugar onde texto estará, auto para deixá-lo no meio
+tag "border-radius" para borda do texto principal
+tag "box-shadow" para a sombra da borda
+tag "text-shadow" para a sombra do título (para ficar bonitinho)
+tag "text-align: center" para deuxar o título no centro

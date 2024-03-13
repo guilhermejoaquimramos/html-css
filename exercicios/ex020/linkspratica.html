@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Prática dos links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        .especial{
+            background-color: rgb(185, 185, 245);
+            color: white;
+        }
+        a{
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        .especial::before{
+            content: '⇒';
+        }
+        .especial::after{
+            content: '⇐';
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/" target="_blank" class="especial">Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com/">Site</a></li>
+    </ul>
+</body>
+</html>

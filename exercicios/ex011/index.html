@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste com imagens dinâmicas</title>
+</head>
+<body>
+    <h1>Testando imagens dinâmicas</h1>
+    <p>Abrindo em dispositivos diferentes</p>
+    <picture>
+        <source media="(max-width:600px )" srcset="imagens/fotopp.png" type="image/png">
+        <source media="(max-width:800px )" srcset="imagens/fotopequena.png" type="image/png">
+        <source media="(max-width:1000px )" srcset="imagens/fotomedia.png" type="image/png">
+
+    </picture>
+    <h1>Reproduzindo audio</h1>
+        <a href="midia/Kazoom - Quincas Moreira.zip"> Link para download</a>
+    <audio preload="metadata" src="midia/Calimba - E's Jammy Jams.mp3" controls loop>
+        <source src="midia/Kazoom - Quincas Moreira.mp3" type="audio/mpeg">
+
+    </audio>
+
+</body>
+</html>

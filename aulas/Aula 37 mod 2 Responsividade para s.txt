@@ -1,0 +1,3 @@
+Aula 37 mod 2 Responsividade para sites
+min-widht e max-widht PARA ADAPTAR O SITE
+IMG{} WIDHT: 100% PARA ADAPTAR A IMAGEM NO SITE

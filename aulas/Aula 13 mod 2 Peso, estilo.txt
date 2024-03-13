@@ -1,0 +1,8 @@
+Aula 13 mod 2 Peso, estilo
+weight: peso widht: largura height: altura
+tag font-style para o estilo da fonte
+tag text decoration para por exemplo colocar um sublinhado nas palavras
+tag font size para o tamanho
+shorthand font ORDEM
+font: font style -> font-weigth -> font size -> font-family
+italic 900 3em 'Work Sans', sans-serif

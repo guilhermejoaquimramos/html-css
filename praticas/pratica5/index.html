@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratica com hover</title>
+    <style>
+        div:hover{
+            color: brown;
+        }
+        div > p{
+            display: none;
+            color: aqua;
+            background-color: blue;
+            width: 200px;
+        }
+        div:hover > p{
+            display: block;
+        }
+    </style>
+</head>
+<body style="font-family: Arial, Helvetica, sans-serif;">
+    <h1>Título 1</h1>
+    <div>
+        Passe o mouse
+        <p>Texto secreto</p>
+    </div>
+</body>
+</html>

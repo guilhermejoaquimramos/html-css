@@ -1,0 +1,4 @@
+Aula 19 mod2 Usando o id com CSS
+em HTML é id = em CSS é #
+em HTML é class = em CSS é .
+Para diferenciar um título q vc queira q seja principal precisa colocar a tag id depois do <h1>

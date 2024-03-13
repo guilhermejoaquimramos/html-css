@@ -1,0 +1,8 @@
+Aula 26 mod 2 grouping tags
+header= cabeçalho
+main= conteúdo principal
+footer= rodapé
+nav= espaço pra links
+article= artigos
+section= seção
+aside= conteúdo relativo ao artigo

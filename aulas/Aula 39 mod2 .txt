@@ -1,0 +1,2 @@
+Aula 39 mod2 
+transition-duration para uma animação em nav

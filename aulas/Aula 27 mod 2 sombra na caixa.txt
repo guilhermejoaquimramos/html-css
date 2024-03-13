@@ -1,0 +1,5 @@
+Aula 27 mod 2 sombra na caixa
+shorthand box-shadow-> horizontal vertical e espalhamento e a cor
+dev tools também serve para sombras
+border-radius para bordas arredondadas
+para fazer uma bola height:100px widht:100px border-radius:50% e background-color

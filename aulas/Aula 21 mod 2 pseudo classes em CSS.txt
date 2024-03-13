@@ -1,0 +1,10 @@
+Aula 21 mod 2 pseudo classes em CSS
+tag "div" é um espaço qualquer mas que serve para muita coisa. ex: 1
+                                                                   2
+                                                                   3
+tag"border" para a borda de uma div = 1px=borda solid= tipo e a cor 
+display: inline-block para deixar as divs do lado da outra
+div:hover para quando passar o mouse por cima algo acontecer
+div > p para um paragrafo dentro da div
+div:hiver > p para configurar o paragrafo dentro da div... display block para o item ocultado aparecer
+display-none para ocultar

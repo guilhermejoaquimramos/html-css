@@ -1,0 +1,61 @@
+Aula 42 mod 2 vídeo responsivo
+position:relative;
+position: absolute; (em div.video > iframe)
+top: 5%;
+left:5%;
+height: 90%;
+widht: 90%;
+
+PROPRIEDADE DE ESTILO - POSITION:
+
+O posicionamento padrão de todo elemento no HTML é o "estático". Todo elemento estático é posicionado no canto superior esquerdo no corpo do documento ou do elemento onde ele está contido. Esta é a posição 0 de um elemento no corpo do documento.
+
+A Propriedade de Estilo " position " é utilizada para determinar o posicionamento e hierarquia dos elementos na página do documento.
+
+PROPRIEDADES AUXILIARES DO POSITION:
+
+A Propriedade de Estilo "position" vem ACOMPANHADA e é usada em conjunto com quatro outras propriedades auxiliares (são propriedades e NÃO valores para position), que são: 
+
+top - (topo) 
+
+bottom - (baixo)
+
+right - (direita)
+
+left - (esquerda)
+
+Essas quatro propriedades irão determinar a localização final do objeto, irão deslocar o elemento conforme for especificado.
+
+Por exemplo, se usamos a propriedade "top" com o valor de 20px em um elemento, o mesmo vai se deslocar do topo num total de 20px para baixo.
+
+VALORES DA PROPRIEDADE POSITION:
+
+Para a propriedade position, é possível atribuir 5 valores, que são: static, relative, absolute, fixed e sticky.
+
+Funções dos valores mais usados:
+
+static - (estático):
+
+O valor padrão da propriedade position é o static. Se não determinarmos nada, é esse valor que vai prevalecer por "debaixo dos panos". Ele não indica posicionamento algum, ou seja, é o valor para "nenhum posicionamento específico" do elemento. A função dele é manter a hierarquia de posicionamento conforme já estabelecido no documento HTML.
+
+Isso significa que aquelas quatro outras propriedades já citadas (top, bottom, left e right) não funcionarão, não irão alterar a posição do elemento se usadas juntamente com esse valor... Visto que o position já está como "static" por padrão.
+
+relative - (relativo):
+
+O valor relative posiciona um elemento em relação à sua posição "normal"... Ou seja, as quatro propriedades auxiliares (top, bottom, left e right) vão fazer com que o elemento seja ajustado A PARTIR DA SUA POSIÇÃO ORIGINAL.
+
+Após ter definido o tipo de position (relative nesse caso), a posição do elemento é definida através das quatro propriedades auxiliares do position: top, bottom, left e right. Que indicam a distância com relação ao topo, base, esquerda e direita, respectivamente, tomando como REFERÊNCIA DE POSICIONAMENTO (no caso do valor relative) a posição original do elemento. (se não configurarmos valores de posicionamento com as propriedades auxiliares, o elemento simplesmente fica no mesmo lugar)
+
+absolute - (absoluto):
+
+Um elemento com o valor absolute para position vai ser disposto, com as propriedades auxiliares, de forma relativa ao seu elemento pai... DESDE QUE ESSE ELEMENTO PAI TENHA UM POSITION COM UM VALOR DIFERENTE DE "STATIC" DEFINIDO!
+ 
+Se o elemento pai não ter um position com um valor diferente de "static" definido, o valor absolute faz com que o elemento configurado " saia " da hierarquia estabelecida pelo HTML. 
+
+Um elemento com o position absolute é disposto em relação ao elemento de nível superior mais próximo dele que possui um position com um valor diferente de "static" definido... E como já foi dito, caso não exista nenhum elemento hierarquicamente de nível superior (pai ou "avô") que tenha um position sem ser o "static" definido, o position absolute será absoluto ao corpo da página (body).
+
+Na prática, em elementos do tipo filho com o pai sem a propriedade position, o valor absolute "transforma" filhos de elementos em FILHOS DA PÁGINA (body). Assim, é possível posicionarmos um elemento filho (transformado) em qualquer lugar da página (fora do pai), independentemente do que temos lá. Isso pode ser útil em casos que precisamos posicionar um alerta em nossa página, por exemplo, e não queremos "quebrar" o layout. ---
+
+Dessa forma, note que o position absolute possui dois comportamentos diferentes, que se manifestam dependendo da configuração do elemento pai ou elemento de nível superior.
+
+Nota: Perceba que o Guanabara configurou o filho da div (iframe) com a declaração "position: absolute" e o pai (a div) com a declaração "position: relative"... Dessa forma o elemento filho (iframe) é posicionado, com as propriedades auxiliares, em relação ao seu pai (div).

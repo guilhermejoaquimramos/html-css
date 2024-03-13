@@ -1,0 +1,18 @@
+Aula 22 mod 2 pseudo elemento
+mudando cor do link = style - a{}color
+mudando cor apenas de um = a class"especial" e color - .especial{} 
+pseudo classe visited. Funciona para sites que não foram visitados
+a{text-decoration: none; para o sublinhado do link n aparecer
+a:hover{
+            text-decoration: underline; para quando passar o mouse por cima o sublinado aparecer
+a:active para os links ativos aparecerem de uma forma
+a:hover para modificações nos links quando o mouse passar por cima
+"class" para definir uma tag como principal
+
+Seletores Personalizados
+# = id
+. = class
+: = pseudo-class
+:: = pseudo-element
+> = children
+"class especial" para não bugar a cor colocar antes do "a"
