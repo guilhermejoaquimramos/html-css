@@ -1,2 +1,2 @@
 # html-css
- HTML5 E CSS3 REPOSITÓRIO
+ Curso de HTML e CSS do curso em vídeo
