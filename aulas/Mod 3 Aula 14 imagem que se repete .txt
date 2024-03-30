@@ -1,0 +1,3 @@
+Mod 3 Aula 14 imagem que se repete no fundo
+background-size para o tamanho da imagem
+background-repead para configurar o modo da imagem
