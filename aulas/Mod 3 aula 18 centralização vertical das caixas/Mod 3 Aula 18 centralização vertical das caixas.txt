@@ -1,0 +1,8 @@
+Aula 18 mod 3 centralização vertical das caixas
+position: relative para o container
+position: absolute para o conteúdo 
+Para fazer as configurações para deixar no meio verticalmente:
+left: 50%
+top: 50%
+transform: translate (-50%, -50%); (lembrando que o height tem q estar em 96 vh) o primeiro - vai para a esquerda e o outro - para cima
+Assim o quadrado vai ficar no meio certinho.

@@ -1,0 +1,7 @@
+Mod 3 Aula 17 background attachment e shorthand
+max-widht é bom para expremer o conteúdo
+shorthand background
+color > image > position > repeat > [size] > attachment
+
+color > image > position > / > size > repeat > attachment.
+background: #000 url('imagem.jpg') center top/cover no-repeat fixed; 
