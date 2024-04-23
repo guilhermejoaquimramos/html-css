@@ -1,0 +1,5 @@
+Projeto cordel
+font-variant: small-caps para deixar todas as letras maiusculas e as primeiras de cada frase maiores
+padding-top: 10vh
+padding bottom: 10vh com essas tags é possivel separar as sections
+display: inline-blok para adaptar a caixa transparente ao conteúdo, depois coloca um padding
