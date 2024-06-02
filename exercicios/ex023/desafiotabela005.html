@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio tabela 02</title>
     <style>
-        
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
         th, td{
             border: 1px solid black;
             text-align: center;
@@ -32,16 +34,19 @@
 </head>
 <body>
     <table>
-        <tr>
-            <th class="head" rowspan="2">Área</th>
-            <th class="head" rowspan="2">Disciplinas</th>
-            <th class="head" colspan="2">Notas</th>
-            <th class="head" rowspan="2">Média</th>
-        </tr>
-        <tr>
-            <th class="head">Nota 1</th>
-            <th class="head">Nota 2</th>
-        </tr>
+        <thead>
+            <caption><strong>Escola</strong></caption>
+            <tr>
+                <th scope="col" class="head" rowspan="2">Área</th>
+                <th style="width: 100px;" scope="col" class="head" rowspan="2">Disciplinas</th>
+                <th style="width: 100px;" scope="col" class="head" colspan="2">Notas</th>
+                <th style="width: 100px;" scope="col" class="head" rowspan="2">Média</th>
+            </tr>
+            <tr>
+                <th scope="col" class="head">Nota 1</th>
+                <th scope="col" class="head">Nota 2</th>
+            </tr>
+        </thead>
         <tr>
             <th rowspan="4">Exatas</th>
             <td>Matemática</td>
@@ -62,15 +67,15 @@
             <td>0,0</td>
         </tr>
         <tr>
-            <td>Biologia</td>
+            <td >Biologia</td>
             <td>0,0</td>
             <td>0,0</td>
             <td>0,0</td>
         </tr>
-        <tr>
-            <th class="head" colspan="4">Média de exatas</th>
-            <td class="head">0,0</td>
-        </tr>
+            <tr>
+                <th scope="row" class="head" colspan="4">Média de exatas</th>
+                <td class="head">0,0</td>
+            </tr>
         <tr>
             <th rowspan="2">Humanas</th>
             <td>História</td>
@@ -84,10 +89,12 @@
             <td>0,0</td>
             <td>0,0</td>
         </tr>
-        <tr>
-            <th class="head" colspan="4">Média de humanas</th>
-            <td class="head">0,0</td>
-        </tr>
+        <tfoot>
+            <tr>
+                <th scope="row" class="head" colspan="4">Média de humanas</th>
+                <td class="head">0,0</td>
+            </tr>
+        </tfoot>
     </table>
 </body>
 </html>
